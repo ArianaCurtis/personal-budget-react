@@ -1,4 +1,3 @@
-import './App.css';
 import Menu from './Menu/Menu';
 import Hero from './Hero/Hero';
 import Homepage from './Homepage/Homepage';
@@ -11,8 +10,8 @@ import {
   BrowserRouter,
   Routes,
   Route,
-  Link,
 } from "react-router-dom";
+
 
 function App() {
   return (

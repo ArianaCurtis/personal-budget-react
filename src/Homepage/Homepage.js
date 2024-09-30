@@ -1,5 +1,8 @@
+import PieChart from ".//PieChart";
+import D3 from ".//D3"
 
 function Homepage() {
+
   return (
     <main className="center" id="main">
 
@@ -54,18 +57,12 @@ function Homepage() {
                     because they know it is all good and accounted for.
                 </p>
             </article>
-
             <article>
-                <h1>Chart</h1>
-                <p>
-                    <canvas id="myChart" width="400" height="400"></canvas>
-                </p>
+              <PieChart></PieChart>
             </article>
             <article>
-                <h1 id="D3">Chart 2</h1>
-
+              <D3></D3>
             </article>
-
         </div>
 
     </main>
